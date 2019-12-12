@@ -38,6 +38,9 @@ gem 'rails-controller-testing'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'webpacker', '~> 4.x'
+gem 'react-rails'
+
 group :development, :test do
   gem 'sqlite3'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
